@@ -77,11 +77,12 @@ class _HomePageState extends State<HomePage> {
 String reverseString(String inputString) {
   if(isNull(inputString))
   {
-    return 'Enter Some String,Input is Null...';
+    return 'Null';
+    
   }
    else if(isNumeric(inputString))
   {
-    return 'Enter Valid String...';
+    return inputString;
   }
   else if(isLength(inputString, 2))
   {

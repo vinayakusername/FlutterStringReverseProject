@@ -21,7 +21,7 @@ void main(){
 
     String inputString = '';
     String reversedString = reverseString(inputString);
-    expect(reversedString, '');
+    expect(reversedString, 'StringValue');
   });
 
    test("String Length is short", (){
