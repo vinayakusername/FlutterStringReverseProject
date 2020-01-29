@@ -14,21 +14,21 @@ void main(){
 
     String inputString = '123456789';
     String reversedString = reverseString(inputString);
-    expect(reversedString, 'Enter Valid String...');
+    expect(reversedString, '987654321');
   });
 
    test("Input is Null", (){
 
     String inputString = '';
     String reversedString = reverseString(inputString);
-    expect(reversedString, 'Enter Some String,Input is Null...');
+    expect(reversedString, '');
   });
 
    test("String Length is short", (){
 
     String inputString = 'i';
     String reversedString = reverseString(inputString);
-    expect(reversedString, 'inputString Length is Short...');
+    expect(reversedString, 'i');
   });
   
 }
