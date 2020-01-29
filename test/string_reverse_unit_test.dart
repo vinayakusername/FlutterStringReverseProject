@@ -10,14 +10,14 @@ void main(){
     expect(reversedString, 'dlroW olleH');
   });
 
-   test("Input is Nummber", (){
+   test("Enter Valid String...", (){
 
     String inputString = '123456789';
     String reversedString = reverseString(inputString);
     expect(reversedString, '987654321');
   });
 
-   test("Input is Null", (){
+   test("Enter Some String,Input is Null...", (){
 
     String inputString = '';
     String reversedString = reverseString(inputString);
